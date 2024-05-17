@@ -3,8 +3,8 @@ import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
 # Charger les données
-df_voyage_all = pd.read_parquet(r'C:\Users\aikel\Desktop\Protojam ok\table_voyage_all (1)')
-df_name_ml = pd.read_parquet(r'C:\Users\aikel\Desktop\Protojam ok\table_voyage_ml (1)')
+df_voyage_all = pd.read_parquet(r'table_voyage_all_(1)')
+df_name_ml = pd.read_parquet(r'table_voyage_ml_(1)')
 
 # Fonction pour afficher chaque lettre d'une chaîne de caractères avec une couleur différente
 def rainbow_text(text):
